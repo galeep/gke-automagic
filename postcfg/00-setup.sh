@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# We are inconsistent about what we init here :(
 gcloud config set compute/zone us-west1-a
 gcloud container clusters get-credentials wordpress-cluster 
 kubectl get namespaces
