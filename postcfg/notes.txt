@@ -1,0 +1,10 @@
+Ansible now has a helm module:
+   https://docs.ansible.com/ansible/2.4/helm_module.html
+I have not used it because of this showstopper: 
+   https://github.com/ansible/ansible/issues/32545
+and because use of a role would require refactoring shortly 
+thereafter. 
+
+This follows a general trend of avoiding Ansible for tasks 
+that are unlikely to benefit from the increased complexity 
+or overhead that Ansible would introduce. 
